@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bank.PasteController">
+   <children>
+      <HBox layoutX="457.0" layoutY="363.0">
+         <children>
+            <Button fx:id="Ok" layoutX="457.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleOk" text="确定" />
+            <Button fx:id="Cancel" layoutX="512.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleCancel" text="取消" />
+         </children>
+      </HBox>
+      <TableView fx:id="EmployeesView" layoutX="14.0" prefHeight="358.0" prefWidth="582.0">
+        <columns>
+          <TableColumn fx:id="Employeenum" prefWidth="75.0" text="EMPNO" />
+          <TableColumn fx:id="EmployeeFname" prefWidth="75.0" text="FIRSTNME" />
+            <TableColumn fx:id="EmployeeDinInit" prefWidth="75.0" text="MIDINIT" />
+            <TableColumn fx:id="EmployeeLname" prefWidth="75.0" text="LASTNAME" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

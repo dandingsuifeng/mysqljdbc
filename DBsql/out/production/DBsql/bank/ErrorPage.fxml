@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="144.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bank.ErrorPageController">
+   <children>
+      <Label layoutX="30.0" layoutY="22.0" prefHeight="38.0" prefWidth="61.0" text=" 信息:" />
+      <TextField fx:id="ErrorMassage" layoutX="83.0" layoutY="30.0" prefHeight="23.0" prefWidth="393.0" />
+   </children>
+</AnchorPane>
